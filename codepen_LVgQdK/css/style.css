@@ -1,0 +1,47 @@
+* {
+  /*outline: 1 px solid grey; */
+  box-sizing: border-box;
+}
+ 
+html, body {
+  margin: 0;
+}
+
+header {
+  background-color:purple;
+  color: white;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  background-color: red;
+  float: left;
+  display: inline-block;
+  height: 100%;
+  padding: 5px;
+  width: 30%;
+  overflow: hidden;
+  transition: width 0.2s;
+}
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+.collapsed {
+  width: 0;
+}
